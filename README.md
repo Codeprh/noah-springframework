@@ -2,13 +2,6 @@
 
 # Spring IOC源码
 
-- 抓住主干：
-  - 解析配置
-  - 定位与注册对象
-    - 容器初始化主要做的事情：配置文件读取，Resource解析，BeanDefinition注册到容器
-  - 注入对象
-- xml（注解）配置的资源定位、加载、解析、注册全链路分析
-
 ## BeanDefinition
 
 - org.springframework.beans.factory.config.BeanDefinition的定义
@@ -227,6 +220,15 @@ protected AbstractBeanDefinitionReader(BeanDefinitionRegistry registry) {
 ## BeanWrapperImpl
 
 - 功能:修改bean里面的属性
+
+## Spring IOC源码分析
+
+- 抓住主干：
+  - 解析配置
+  - 定位与注册对象
+    - 容器初始化主要做的事情：配置文件读取，Resource解析，BeanDefinition注册到容器
+  - 注入对象
+- xml（注解）配置的资源定位、加载、解析、注册全链路分析
 
 # Spring AOP源码
 
